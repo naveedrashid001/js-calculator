@@ -18,6 +18,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
+    color: white;
     background-color: hsl(0, 0%, 20%);
 }
 .keys{
@@ -39,4 +40,16 @@ button{
 }
 button:hover{
     background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operate-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+.operate-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.operate-btn:acative{
+    background-color: hsl(35, 100%, 75%);
 }
